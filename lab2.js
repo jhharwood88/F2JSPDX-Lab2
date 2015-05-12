@@ -179,10 +179,10 @@ function lastLetterSort(strArray) {
 var x = lastLetterSort(arrayTest);
 console.log(x);
 
-//var arrayTest = ["hard", "wine", "soft"];
-//var arrayPass = ["hard", "soft", "wine"];
-//assert(lastLetterSort(arrayPass)===arrayTest, "The array is sorted");
-//assert(lastLetterSort(arrayPass)===arrayPass, "This assert should fail");
+var arrayTest = ["hard", "wine", "soft"];
+var arrayPass = ["hard", "soft", "wine"];
+assert(lastLetterSort(arrayPass)===arrayTest, "The array is sorted");
+assert(lastLetterSort(arrayPass)===arrayPass, "This assert should fail");
 
 
 function sumArray(numberArray) {
